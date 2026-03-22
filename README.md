@@ -1,16 +1,200 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**christina-kamble/christina-kamble** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1B3A5C,100:2E86AB&height=200&section=header&text=Christina%20Kamble&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Data%20Scientist%20%7C%20BI%20Analyst%20%7C%20Data%20Analyst&descColor=a8d4e6&descSize=18&animation=fadeIn" width="100%"/>
 
-Here are some ideas to get you started:
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/christina-kamble)
+[![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ckamble.work@gmail.com)
+[![Projects](https://img.shields.io/badge/Projects-View%20Work-1B3A5C?style=for-the-badge&logo=github&logoColor=white)](#-featured-projects)
+
+</div>
+
+---
+
+## 👩‍💻 About Me
+
+```python
+class ChristinaKamble:
+
+    def __init__(self):
+        self.role        = ["Data Scientist", "BI Analyst", "Data Analyst"]
+        self.education   = "MSc Data Science — University of Surrey (Merit, 2025)"
+        self.experience  = "Data Scientist Intern @ UXLI | ex-Teaching Assistant"
+        self.tools       = ["Python", "SQL", "Power BI", "PyTorch", "Tableau"]
+        self.currently   = "Building ML pipelines · Expanding cloud skills (Vertex AI, Azure ML)"
+        self.available   = True   # Open to roles worldwide
+
+    def strengths(self):
+        return [
+            "End-to-end ML model development & deployment",
+            "Translating complex data into business-ready insights",
+            "BI dashboard & KPI suite design",
+            "Stakeholder communication across technical & non-technical teams",
+            "Fast learner with a continuous improvement mindset"
+        ]
+```
+
+---
+
+## 🛠️ Tech Stack
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+**Languages & Querying**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+**ML & Deep Learning**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+
+</td>
+<td valign="top" width="33%">
+
+**BI & Visualisation**
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+![Seaborn](https://img.shields.io/badge/Seaborn-76B7B2?style=flat-square)
+
+**Data Engineering**
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel%20Advanced-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+
+</td>
+<td valign="top" width="33%">
+
+**Cloud & Dev Tools**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
+
+**In Progress**
+
+![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Azure ML](https://img.shields.io/badge/Azure%20ML-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📌 Featured Projects
+
+### 🤖 [Multi-Modal Deep Learning for Visual Servoing](https://github.com/christina-kamble/visual-servoing-multimodal)
+> **MSc Dissertation** — University of Surrey · Supervised by Dr Amir Esfahani
+
+Designed and implemented a comparative study of two deep learning architectures for robotic visual servoing — mapping encoded visual inputs and trajectory data to robot control weights.
+
+| Model | MSE | MAE | R² | Accuracy (±10%) |
+|:---|---:|---:|---:|---:|
+| CNN-MLP Hybrid | 1,620,828 | 363.16 | -0.0716 | 0.22% |
+| Vision Transformer | 2,181,668 | 431.59 | -0.0479 | 1.11% |
+
+> **Finding:** CNN-MLP achieved lower raw error; Vision Transformer demonstrated more stable training and better generalisation. Research identified dataset scale and multi-modal fusion complexity as primary bottlenecks — producing actionable recommendations for future architecture improvement.
+
+`PyTorch` `CNN` `Vision Transformer` `Multi-modal DL` `Python` `CRISP-DM` `Robotics`
+
+---
+
+> 🔨 **More projects coming soon** — customer analytics, BI dashboards, predictive modelling. Watch this space.
+
+---
+
+## 💼 Professional Experience
+
+<table>
+<tr>
+<td>
+
+**🔬 Data Scientist Intern** · UXLI *(May 2025 – Present)*
+
+- Built & deployed predictive ML models achieving **80%+ accuracy** on 50K+ user behaviour records
+- Automated end-to-end analytical workflows — reduced manual processing time by **25%**
+- Designed Power BI dashboards enabling non-technical stakeholders to self-serve performance metrics
+- Collaborated across engineering, analytics and business teams to translate problems into data solutions
+
+</td>
+</tr>
+<tr>
+<td>
+
+**📊 Teaching Assistant — Data Support & Behaviour Reporting** · Freemantles School *(Feb 2025 – Jul 2025)*
+
+- Collected and reported on behavioural performance data across a team of 12 educators
+- Translated analytical findings into clear, actionable recommendations for multidisciplinary stakeholders
+
+</td>
+</tr>
+<tr>
+<td>
+
+**⚙️ Operations Executive — Technology & Reporting Support** · Ramanora Global *(Nov 2020 – Dec 2023)*
+
+- Analysed system defect and workflow performance data to identify operational improvements
+- Delivered data-driven reporting improvements across multiple departments
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎓 Education
+
+| Degree | Institution | Result |
+|:---|:---|:---|
+| **MSc Data Science** | University of Surrey | Merit |
+| **MCA** | Sinhgad Institute of Business Administration and Research | First Class with Distinction |
+| **BBA – Computer Applications** | ACACS | First Class with Distinction |
+
+---
+
+## 📜 Certifications
+
+- 🏅 BCG Data Science Job Simulation
+- 🏅 Voice Assistant Development with Python — IIDE
+- 🏅 The Complete Data Analyst Bootcamp — Udemy
+
+---
+
+## 📊 What I'm Working On
+
+- 🔭 Building portfolio projects in customer analytics, BI dashboards and predictive modelling
+- 🌱 Expanding cloud skills — Google Vertex AI & Azure ML
+- 💡 Applying data science to real-world business problems across retail, finance and public sector
+- 🤝 Open to Data Scientist, BI Analyst and Data Analyst roles — available worldwide
+
+---
+
+## 🌐 Let's Connect
+
+I'm always open to interesting conversations about data, analytics and machine learning.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Christina%20Kamble-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/christina-kamble)
+[![Email](https://img.shields.io/badge/Gmail-ckamble.work%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ckamble.work@gmail.com)
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E86AB,100:1B3A5C&height=100&section=footer" width="100%"/>
+
+*Open to Data Scientist · BI Analyst · Data Analyst roles worldwide*
+
+</div>
