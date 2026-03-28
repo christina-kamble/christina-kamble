@@ -93,23 +93,56 @@ class ChristinaKamble:
 </table>
 
 ---
-
 ## 📌 Featured Projects
 
-### 🤖 [Multi-Modal Deep Learning for Visual Servoing](https://github.com/christina-kamble/visual-servoing-multimodal)
-> **MSc Dissertation** — University of Surrey · Supervised by Dr Amir Esfahani
+---
 
-Designed and implemented a comparative study of two deep learning architectures for robotic visual servoing — mapping encoded visual inputs and trajectory data to robot control weights.
+### 🛒 UK Retail Sales Analytics Dashboard
+**SQL · DuckDB · RFM Segmentation · Streamlit**
 
-| Model | MSE | MAE | R² | Accuracy (±10%) |
-|:---|---:|---:|---:|---:|
-| CNN-MLP Hybrid | 1,620,828 | 363.16 | -0.0716 | 0.22% |
-| Vision Transformer | 2,181,668 | 431.59 | -0.0479 | 1.11% |
+End-to-end retail analytics pipeline on 500K+ real UK e-commerce transactions. Built SQL queries using DuckDB (JOINs, CTEs, window functions), implemented RFM customer segmentation to identify Champions, At-Risk and Lost customers, and wrapped everything in an interactive 3-page Streamlit dashboard.
 
-> **Finding:** CNN-MLP achieved lower raw error; Vision Transformer demonstrated more stable training and better generalisation. Research identified dataset scale and multi-modal fusion complexity as primary bottlenecks — producing actionable recommendations for future architecture improvement.
+| Metric | Value |
+|---|---|
+| Transactions analysed | 500K+ |
+| Customers segmented | 4,000+ |
+| Countries covered | 37 |
+| Key technique | RFM segmentation + MoM growth analysis |
 
-`PyTorch` `CNN` `Vision Transformer` `Multi-modal DL` `Python` `CRISP-DM` `Robotics`
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://christina-uk-retail-analytics.streamlit.app/)
+[![Repo](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/christina-kamble/uk-retail-analytics)
 
+---
+
+### 📉 Customer Churn Prediction — Telecom
+**XGBoost · SHAP Explainability · Streamlit**
+
+End-to-end ML pipeline predicting customer churn on 7,043 records. Goes beyond model accuracy — uses SHAP values to explain individual predictions and delivers actionable business recommendations. Live interactive dashboard lets users simulate any customer profile and get an instant risk score.
+
+| Model | ROC-AUC | Key Finding |
+|---|---|---|
+| XGBoost (selected) | ~0.82 | Month-to-month contracts = 42% churn rate |
+| Logistic Regression | ~0.84 | Tenure < 12 months = ~50% churn rate |
+| Random Forest | ~0.82 | High charges (>$65) linked to churn |
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://christina-churn-prediction.streamlit.app)
+[![Repo](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/christina-kamble/customer-churn-prediction)
+
+---
+
+### 🤖 Multi-Modal Deep Learning for Visual Servoing
+**MSc Dissertation · University of Surrey · PyTorch**
+
+Comparative study of CNN-MLP and Vision Transformer architectures for robotic visual servoing — mapping encoded visual inputs and trajectory data to robot control weights.
+
+| Model | MSE | MAE | R² |
+|---|---|---|---|
+| CNN-MLP Hybrid | 1,620,828 | 363.16 | -0.0716 |
+| Vision Transformer | 2,181,668 | 431.59 | -0.0479 |
+
+Finding: CNN-MLP achieved lower raw error; Vision Transformer showed more stable training and better generalisation. Research identified dataset scale and multi-modal fusion complexity as primary bottlenecks.
+
+[![Repo](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/christina-kamble/visual-servoing-multimodal)
 ---
 
 > 🔨 **More projects coming soon** — customer analytics, BI dashboards, predictive modelling. Watch this space.
